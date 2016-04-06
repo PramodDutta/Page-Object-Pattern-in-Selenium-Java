@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]">
+  <test name="TASK_1_VWO(failed)">
+    <classes>
+      <class name="TASK_1_VWO.testcase.MainTestClass">
+        <methods>
+          <include name="test_task1"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TASK_1_VWO.testcase.MainTestClass -->
+    </classes>
+  </test> <!-- TASK_1_VWO(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
