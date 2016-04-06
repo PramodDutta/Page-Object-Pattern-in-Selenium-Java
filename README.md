@@ -6,5 +6,5 @@ Page Object model is an object design pattern in Selenium, where web pages are r
 on the page are defined as variables on the class. All possible user interactions can then be implemented as methods on the class
 
 
-
+![Alt text](https://solutionscafe.files.wordpress.com/2014/01/untitled10.png "Page Object Model Example")
 Code
