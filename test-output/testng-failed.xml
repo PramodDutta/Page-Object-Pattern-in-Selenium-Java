@@ -7,6 +7,7 @@
         <methods>
           <include name="test_task1"/>
           <include name="setup"/>
+          <include name="takeScreenShotOnFailure"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- TASK_1_VWO.testcase.MainTestClass -->

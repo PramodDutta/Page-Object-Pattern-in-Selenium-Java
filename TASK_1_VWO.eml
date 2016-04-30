@@ -7,6 +7,7 @@
 	</contentEntry>
 	<lib name="Maven: junit:junit:3.8.1" scope="TEST"/>
 	<levels>
+		<level name="sqlite-jdbc-3.8.11.1" value="project"/>
 		<level name="Maven: junit:junit:3.8.1" value="project"/>
 		<level name="Maven: org.seleniumhq.selenium:selenium-java:2.53.0" value="project"/>
 		<level name="Maven: org.seleniumhq.selenium:selenium-chrome-driver:2.53.0" value="project"/>
@@ -34,5 +35,9 @@
 		<level name="Maven: org.beanshell:bsh:2.0b4" value="project"/>
 		<level name="Maven: com.beust:jcommander:1.27" value="project"/>
 		<level name="Maven: org.yaml:snakeyaml:1.6" value="project"/>
+		<level name="Maven: com.relevantcodes:extentreports:2.40.2" value="project"/>
+		<level name="Maven: org.jsoup:jsoup:1.8.3" value="project"/>
+		<level name="Maven: org.xerial:sqlite-jdbc:3.8.11.1" value="project"/>
+		<level name="Maven: org.freemarker:freemarker:2.3.23" value="project"/>
 	</levels>
 </component>

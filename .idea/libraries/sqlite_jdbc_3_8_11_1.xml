@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="sqlite-jdbc-3.8.11.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/lib/sqlite-jdbc-3.8.11.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/jsoup-1.8.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/freemarker-2.3.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/extentreports-java-2.40.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/src/lib/extentreports-java-2.40.2.jar!/doc" />
+      <root url="jar://$PROJECT_DIR$/src/lib/extentreports-java-2.40.2.jar!/target/site/apidocs" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/src/lib/sqlite-jdbc-3.8.11.1.jar!/" />
+    </SOURCES>
+  </library>
+</component>

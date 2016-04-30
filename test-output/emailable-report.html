@@ -31,27 +31,23 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">TASK_1_VWO</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">86.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TASK_1_VWO</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">53.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
 <tr><th colspan="4">TASK_1_VWO &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="1">TASK_1_VWO.testcase.MainTestClass</td><td><a href="#m1"><b>test_task1</b>  </a></td><td class="numi">1</td><td>1459926717887</td><td class="numi">23145</td></tr>
-<tr><th colspan="4">TASK_1_VWO &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">TASK_1_VWO.testcase.MainTestClass</td><td><a href="#m2"><b>test_task2</b>  </a></td><td class="numi">1</td><td>1459926748290</td><td class="numi">46794</td></tr>
+<tr class="failedodd"><td rowspan="1">TASK_1_VWO.testcase.MainTestClass</td><td><a href="#m1"><b>test_task1</b>  </a></td><td class="numi">1</td><td>1462037548790</td><td class="numi">28879</td></tr>
 </table>
 <h1>TASK_1_VWO</h1>
 <h2 id="m1">TASK_1_VWO.testcase.MainTestClass:test_task1</h2>
 <div style="padding-left:3em">
-<p>Unable to locate element: {&quot;method&quot;:&quot;class name&quot;,&quot;selector&quot;:&quot;heatmap-thumb&quot;}
-Command duration or timeout: 10.07 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+<p>Element is not currently visible and so may not be interacted with
+Command duration or timeout: 2.02 seconds
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
 System info: host: &apos;TeeweDesktop&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 1055dd82-24fa-42b5-a9b9-9f387a575f15
-*** Element info: {Using=class name, value=heatmap-thumb}</p>
+Session ID: edbd3bd3-8c26-4dac-8f77-6e6e0a7a62c9</p>
 sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 <br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 <br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -59,26 +55,20 @@ sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 <br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
 <br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 <br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:477)
-<br/>at org.openqa.selenium.By$ByClassName.findElement(By.java:391)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-<br/>at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-<br/>at com.sun.proxy.$Proxy6.isDisplayed(Unknown Source)
-<br/>at TASK_1_VWO.webpages.HomePage.clikc_heatmap_thubbtn_step2(HomePage.java:72)
-<br/>at TASK_1_VWO.testcase.MainTestClass.test_task1(MainTestClass.java:34)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+<br/>at TASK_1_VWO.webpages.HeatMapPage.switchElementsFrame_VerfiyHighLight_step4(HeatMapPage.java:87)
+<br/>at TASK_1_VWO.testcase.MainTestClass.test_task1(MainTestClass.java:89)
 <br/>29 lines not shown
-<p>Caused by Unable to locate element: {&quot;method&quot;:&quot;class name&quot;,&quot;selector&quot;:&quot;heatmap-thumb&quot;}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+<p>Caused by Element is not currently visible and so may not be interacted with
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
 System info: host: &apos;TeeweDesktop&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
 Driver info: driver.version: unknown</p>
-&lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/PRAMO_~1/AppData/Local/Temp/anonymous4247963841283795724webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-<br/>at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/PRAMO_~1/AppData/Local/Temp/anonymous4247963841283795724webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+&lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///C:/Users/PRAMO_~1/AppData/Local/Temp/anonymous5758233572770614580webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10092)
+<br/>at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/PRAMO_~1/AppData/Local/Temp/anonymous5758233572770614580webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12644)
+<br/>at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/PRAMO_~1/AppData/Local/Temp/anonymous5758233572770614580webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+<br/>at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/PRAMO_~1/AppData/Local/Temp/anonymous5758233572770614580webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:625)
 <br/>1 lines not shown
 </div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">TASK_1_VWO.testcase.MainTestClass:test_task2</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>
